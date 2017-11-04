@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mendz.Matrix", "Mendz.Matrix\Mendz.Matrix.csproj", "{A2C6BFAD-2945-4E6A-B1E3-D8B9B05DDA86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mendz.Matrix", "Mendz.Matrix\Mendz.Matrix.csproj", "{A2C6BFAD-2945-4E6A-B1E3-D8B9B05DDA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest.Mendz.Matrix", "UnitTest.Mendz.Matrix\UnitTest.Mendz.Matrix.csproj", "{35BB37E3-0BBB-423A-84AD-89F2E381354B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A2C6BFAD-2945-4E6A-B1E3-D8B9B05DDA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2C6BFAD-2945-4E6A-B1E3-D8B9B05DDA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2C6BFAD-2945-4E6A-B1E3-D8B9B05DDA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BB37E3-0BBB-423A-84AD-89F2E381354B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BB37E3-0BBB-423A-84AD-89F2E381354B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BB37E3-0BBB-423A-84AD-89F2E381354B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BB37E3-0BBB-423A-84AD-89F2E381354B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
