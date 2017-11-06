@@ -1,5 +1,5 @@
 # Mendz.Matrix
-Provides a library of APIs for working with dense, (DOK) sparse and compressed (CRS, CCS, CVS) matrices.
+Provides a library of APIs for working with dense, (DOK) sparse and compressed (CRS, CCS, CVS) matrices. [Wiki](https://github.com/etmendz/Mendz.Matrix/wiki)
 ## Namespaces
 ### Mendz.Matrix
 #### Contents
