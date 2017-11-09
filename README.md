@@ -21,6 +21,6 @@ Name | Description
 CRS | An implementation of the Compressed Row Storage format, also known as Compressed Sparse Row (CSR) or Yale format.
 CCS | An implementation of the Compressed Column Storage format, also known as Compressed Sparse Column (CSC).
 CVS | An implementation of the Compressed Value Storage format, a lossless compression of matrices by their entry values.
-DOKSparseMatrixExtension | Provides extensions to the DOK sparse matrix type to compress sparse matrices.
+DOKSparseMatrixCompressions | Provides extensions to the DOK sparse matrix type to compress sparse matrices.
 ## NuGet it...
 [https://www.nuget.org/packages/Mendz.Matrix/](https://www.nuget.org/packages/Mendz.Matrix/)
