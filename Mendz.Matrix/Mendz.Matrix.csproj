@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFrameworks>netcoreapp2.0;net471</TargetFrameworks>
     <Authors>Mendz</Authors>
     <Company>Mendz</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -12,11 +12,20 @@
     <RepositoryUrl>https://github.com/etmendz/Mendz.Matrix</RepositoryUrl>
     <PackageTags>matrix sparse-matrix compressed-matrix crs ccs cvs</PackageTags>
     <Description>Provides a library of APIs for working with dense, (DOK) sparse and compressed (CRS, CCS, CVS) matrices.</Description>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Compiled for .Net Core and .Net Framework.</PackageReleaseNotes>
   </PropertyGroup>
 
+  <ItemGroup Condition="'$(TargetFramework)'=='netcoreapp2.0'">
+    <PackageReference Include="Microsoft.CSharp" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)'=='net471'">
+    <Reference Include="Microsoft.CSharp" Version="4.4.0" />
+  </ItemGroup>
+  
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <LangVersion>latest</LangVersion>
-    <Optimize>false</Optimize>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
