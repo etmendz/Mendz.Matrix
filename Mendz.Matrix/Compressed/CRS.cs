@@ -107,7 +107,6 @@ namespace Mendz.Matrix.Compressed
         /// Decompress to a sparse matrix instance.
         /// </summary>
         /// <typeparam name="T">The type of entry values.</typeparam>
-        /// <param name="crs">The matrix as CRS.</param>
         /// <param name="sparseMatrix">The sparse matrix instance to decompress to.</param>
         public void Decompress<K>(DOKSparseMatrixBase<K, T> sparseMatrix)
         {

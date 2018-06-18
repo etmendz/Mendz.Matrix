@@ -6,18 +6,18 @@
     <Company>Mendz</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Copyright>© 2017 Mendz. All rights reserved.</Copyright>
+    <Copyright>© 2018 Mendz. All rights reserved.</Copyright>
     <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/etmendz/Mendz.Matrix</PackageProjectUrl>
     <RepositoryUrl>https://github.com/etmendz/Mendz.Matrix</RepositoryUrl>
     <PackageTags>matrix sparse-matrix compressed-matrix crs ccs cvs</PackageTags>
     <Description>Provides a library of APIs for working with dense, (DOK) sparse and compressed (CRS, CCS, CVS) matrices.</Description>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <PackageReleaseNotes>Compiled for .Net Standard.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='netstandard2.0'">
-    <PackageReference Include="Microsoft.CSharp" Version="4.4.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
